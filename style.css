@@ -1,0 +1,398 @@
+
+
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(BebasNeue-Regular.otf);
+}
+@font-face {
+  font-family: "ProximaNova Thin";
+  src: url(proxima_nova_thin.otf);
+}
+
+@media screen and (min-width: 800px) {
+
+.logo{
+  margin-top: 40px;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+
+
+}
+
+.logo img{
+  width: 50%;
+}
+
+
+
+.container{
+  width: 70%;
+  height: 100%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.top-section{
+  width: 100%;
+  height: 600px;
+}
+
+.title{
+  width: 100%;
+  height: 350px;
+}
+
+#title-text{
+    width: 55%;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#title-img1{
+  width: 25%;
+  float: right;
+  border-radius: 10px;
+  /* tim-face: */
+  /* Mask: */
+box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+}
+
+.tim-face{
+  display: none;
+}
+
+#info{
+  width: 50%;
+  left:0;
+}
+
+.same-line{
+    display: inline-block;
+}
+
+.who-am-i{
+  text-align: left;
+  height: 400px;
+}
+
+.who-am-i h1{
+  font-family: "Bebas Neue";
+  color: #515151;
+  line-height: 0px;
+}
+
+.who-am-i p{
+  font-family: "ProximaNova Thin";
+  color: #818181;
+}
+
+.who-am-i img{
+  width: 40%;
+  float: right;
+  margin-top: 30px;
+  margin-bottom: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+
+}
+
+.plan{
+  text-align: right;
+  height: 400px;
+}
+
+.plan h1{
+  font-family: "Bebas Neue";
+  color: #515151;
+  line-height: 0px;
+}
+
+.plan p{
+  font-family: "ProximaNova Thin";
+  color: #818181;
+}
+
+#big{
+  width: 40%;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+}
+
+#small{
+  display: none;
+}
+
+.experience{
+  text-align: left;
+  height: 500px;
+}
+
+.experience h1{
+  font-family: "Bebas Neue";
+  color: #515151;
+  line-height: 0px;
+}
+
+.experience p{
+  font-family: "ProximaNova Thin";
+  color: #818181;
+}
+
+#bigbb{
+  width: 40%;
+  float: right;
+  margin-bottom: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+
+}
+
+
+
+.footer{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #DB5757;
+}
+
+.footer2{
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #DB5757;
+}
+
+.pran{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "ProximaNova Thin";
+  text-align: center;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+  .logo{
+    margin-top: 40px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+
+  }
+
+  .logo img{
+    width: 50%;
+  }
+
+
+
+  .container{
+    width: 70%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .top-section{
+    width: 100%;
+    height: 200px;
+  }
+
+  .title{
+    width: 100%;
+    height: 100px;
+  }
+
+  #title-text{
+      width: 100%;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+
+
+  #title-img1{
+    display: none;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* tim-face: */
+    /* Mask: */
+    box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+  }
+
+  .tim-face{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  #title-img{
+    display:block;
+    margin:auto;
+    width: 40%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* tim-face: */
+    /* Mask: */
+    box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+  }
+
+  #info{
+    width: 100%;
+    left:0;
+  }
+
+
+  .who-am-i{
+    text-align: left;
+    height: 400px;
+  }
+
+  .who-am-i h1{
+    font-family: "Bebas Neue";
+    color: #515151;
+    line-height: 0px;
+    font-size: 20px;
+  }
+
+  .who-am-i p{
+    font-family: "ProximaNova Thin";
+    color: #818181;
+    font-size: 10px;
+  }
+
+  .who-am-i img{
+    width: 100%;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+
+  }
+
+  .plan{
+    margin-top: 80px;
+    text-align: right;
+    height: 400px;
+  }
+
+  .plan h1{
+    font-family: "Bebas Neue";
+    color: #515151;
+    line-height: 0px;
+    font-size: 20px;
+  }
+
+  .plan p{
+    font-family: "ProximaNova Thin";
+    color: #818181;
+    font-size: 10px;
+  }
+
+#bigbb{
+    display: none;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+  }
+
+  #big{
+    display: none;
+  }
+
+  #small{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+  }
+
+  .experience{
+    text-align: left;
+    height: 400px;
+
+  }
+
+  .experience h1{
+    font-family: "Bebas Neue";
+    color: #515151;
+    line-height: 0px;
+    font-size: 20px;
+  }
+
+  .experience p{
+    font-family: "ProximaNova Thin";
+    color: #818181;
+    font-size: 10px;
+  }
+
+  .experience img{
+    width: 100%;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 75px 43px rgba(120,120,120,0.25);
+
+  }
+
+  .bottom{
+    margin-top: 150px;
+  }
+
+  .footer{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #DB5757;
+  }
+
+  .footer2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #DB5757;
+  }
+
+  .pran{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "ProximaNova Thin";
+    text-align: center;
+  }
+
+
+
+}
